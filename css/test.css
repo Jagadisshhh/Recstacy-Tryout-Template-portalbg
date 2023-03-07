@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+body {
+    height: 150vh;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    opacity: 0.9;
+    background: url(../Images/bg/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 82vh;
+    z-index: -1;
+}
+
+.nav {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 1.4rem;
+    height: 4.2rem;
+    backdrop-filter: blur(2px);
+}
+
+.logo {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu-items ul {
+    display: flex;
+}
+
+.menu-items ul li{
+    list-style-type: none;
+    margin: 0px 15px;
+    font-weight: 300;
+}
+
+.menu-items ul li a{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    transition: 0.3s;
+}
+
+.menu-items ul li a:hover{
+    color: rgb(255, 193, 37)
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+}
+
+.content h1 {
+    font-size: 6.5rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Righteous', cursive;
+    /* letter-spacing: 1px; */
+}
+
+.descrip{
+    text-align: center;
+    width: 650px;
+    margin: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info {
+    width: 100vw;
+    color: white;
+    position: absolute;
+    display: flex;
+    bottom: 128px;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.style-text {
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    color: #e1c4ff;
+    background-color: rgba(151, 139, 188, 0.123);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 28vw;
+    height: 10vh;
+    /* box-shadow: 4px 4px 3px #4b457487; */
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 3.4rem;
+    margin-top: 20px;
+}
+
+.events {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+h2::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    top: 50%;
+}
+.events img{
+    max-width: 30vw;
+    /* border: 2px solid red; */
+    transition: 0.8s;
+    border-radius: 20px ;
+}
+.events img:hover{
+    translate:10px -10px;
+}
+
+.events p{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 600;
+}
+
+.dj img{
+    margin-top: 29px;
+    max-height: 67vh;
+    margin-bottom: 7px;
+}
+
+.lantern img{
+    margin-top: 33px;
+}
+
+.card-bg {
+    /* background-color: rgb(158, 77, 234); */
+}
